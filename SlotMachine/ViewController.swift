@@ -75,7 +75,17 @@ class ViewController: UIViewController {
     }
     
     func betOneButtonPressed(button: UIButton) {
-        println("betOneButtonPressed")
+        if credits <= 0 {
+            showAlertWithText(header: "No more credits", message: "Reset Game")
+        } else {
+            if currentBet < 5 {
+                currentBet += 1
+                credits -= 1
+                updateMainView()
+            } else {
+                showAlertWithText(message: "You can only bet 5 credits at a time")
+            }
+        }
     }
     
     func betMaxButtonPressed(button: UIButton) {
