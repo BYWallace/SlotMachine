@@ -13,6 +13,7 @@
 		FE656E061AA915E500193329 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE656E051AA915E500193329 /* Images.xcassets */; };
 		FE656E091AA915E500193329 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE656E071AA915E500193329 /* LaunchScreen.xib */; };
 		FE656E151AA915E500193329 /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE656E141AA915E500193329 /* SlotMachineTests.swift */; };
+		FEAFA9861AABD13000A6DAC2 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAFA9851AABD13000A6DAC2 /* Slot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FE656E0E1AA915E500193329 /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE656E131AA915E500193329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE656E141AA915E500193329 /* SlotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineTests.swift; sourceTree = "<group>"; };
+		FEAFA9851AABD13000A6DAC2 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				FE656DFE1AA915E500193329 /* AppDelegate.swift */,
 				FE656E001AA915E500193329 /* ViewController.swift */,
+				FEAFA9851AABD13000A6DAC2 /* Slot.swift */,
 				FE656E021AA915E500193329 /* Main.storyboard */,
 				FE656E051AA915E500193329 /* Images.xcassets */,
 				FE656E071AA915E500193329 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE656E011AA915E500193329 /* ViewController.swift in Sources */,
+				FEAFA9861AABD13000A6DAC2 /* Slot.swift in Sources */,
 				FE656DFF1AA915E500193329 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				FE656E1A1AA915E500193329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE656E1B1AA915E500193329 /* Build configuration list for PBXNativeTarget "SlotMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				FE656E1D1AA915E500193329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
